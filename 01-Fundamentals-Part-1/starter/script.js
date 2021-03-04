@@ -13,3 +13,12 @@ let myCurrentJob = "Full Stack Developer";
 console.log(firstName);
 console.log(myFirstJob);
 console.log(myCurrentJob);
+
+// Assignment
+let country = "India";
+let continent = "Asia";
+let population = 108;
+
+console.log(country);
+console.log(continent);
+console.log(population);
