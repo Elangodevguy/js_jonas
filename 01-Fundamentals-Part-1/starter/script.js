@@ -22,3 +22,4 @@ let population = 108;
 console.log(country);
 console.log(continent);
 console.log(population);
+console.log(typeof population);
