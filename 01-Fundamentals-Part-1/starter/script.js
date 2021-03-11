@@ -31,21 +31,32 @@
 // elango = "is my name";
 // -------------------------------------------------------------------------------------
 
-// 14 basic operators
-// Math operators
-const now = 2021;
-const elangoBirthYear = 1994;
-const elangoAge = now - elangoBirthYear;
-console.log(elangoAge);
+// // 14 basic operators
+// // Math operators
+// const now = 2021;
+// const elangoBirthYear = 1994;
+// const elangoAge = now - elangoBirthYear;
+// console.log(elangoAge);
 
-// Assignment operators
-const fullAge = 18;
-let x = 10 + 5;
-x += 10;
-x++;
-x--;
-console.log(x);
+// // Assignment operators
+// const fullAge = 18;
+// let x = 10 + 5;
+// x += 10;
+// x++;
+// x--;
+// console.log(x);
 
-// comparison operators
-const isElangoFullAge = elangoAge >= fullAge;
-console.log(isElangoFullAge);
+// // comparison operators
+// const isElangoFullAge = elangoAge >= fullAge;
+// console.log(isElangoFullAge);
+// -------------------------------------------------------------------------------------
+
+// 15 operator precedence
+const now = 2037;
+const ageElango = 1994;
+const ageMoni = 2000;
+console.log(now - ageElango > now - ageMoni);
+
+let x, y;
+x = y = 10 + 5 + 10;
+console.log(x, y);
