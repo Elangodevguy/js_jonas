@@ -49,14 +49,36 @@
 // // comparison operators
 // const isElangoFullAge = elangoAge >= fullAge;
 // console.log(isElangoFullAge);
-// -------------------------------------------------------------------------------------
+// ----------------------------------------------------------------
 
-// 15 operator precedence
-const now = 2037;
-const ageElango = 1994;
-const ageMoni = 2000;
-console.log(now - ageElango > now - ageMoni);
+// // 15 operator precedence
+// const now = 2037;
+// const ageElango = 1994;
+// const ageMoni = 2000;
+// console.log(now - ageElango > now - ageMoni);
 
-let x, y;
-x = y = 10 + 5 + 10;
-console.log(x, y);
+// let x, y;
+// x = y = 10 + 5 + 10;
+// console.log(x, y);
+// ----------------------------------------------------------------
+
+// 16 coding challenge
+let marksWeight = 78;
+let marksHeight = 1.69;
+let johnWeight = 92;
+let johnHeight = 1.92;
+
+let marksBMI = marksWeight / marksHeight ** 2;
+let johnBMI = johnWeight / johnHeight ** 2;
+let markHigherBMI = marksBMI > johnBMI;
+console.log(marksBMI, johnBMI, markHigherBMI);
+
+marksWeight = 95;
+marksHeight = 1.89;
+johnWeight = 85;
+johnHeight = 1.76;
+
+marksBMI = marksWeight / marksHeight ** 2;
+johnBMI = johnWeight / johnHeight ** 2;
+markHigherBMI = marksBMI > johnBMI;
+console.log(marksBMI, johnBMI, markHigherBMI);
