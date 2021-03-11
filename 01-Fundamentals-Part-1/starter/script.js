@@ -1,25 +1,30 @@
-let js = "amazing";
-// if (js === "amazing") alert("JS is FUN");
+// let js = "amazing";
+// // if (js === "amazing") alert("JS is FUN");
 
-let firstName = "Elango";
+// let firstName = "Elango";
 
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
 
-let myFirstJob = "Typing";
-let myCurrentJob = "Full Stack Developer";
+// let myFirstJob = "Typing";
+// let myCurrentJob = "Full Stack Developer";
 
-console.log(firstName);
-console.log(myFirstJob);
-console.log(myCurrentJob);
+// console.log(firstName);
+// console.log(myFirstJob);
+// console.log(myCurrentJob);
 
-// Assignment
-let country = "India";
-let continent = "Asia";
-let population = 108;
+// // Assignment
+// let country = "India";
+// let continent = "Asia";
+// let population = 108;
 
-console.log(country);
-console.log(continent);
-console.log(population);
-console.log(typeof population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+// console.log(typeof population);
+// ----------------------------------------------------------------------------------------
+// 13 let, const and variable
+let age = 31;
+const birthYear = 1994;
+elango = "is my name";
