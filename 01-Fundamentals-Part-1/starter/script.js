@@ -120,16 +120,27 @@
 // }
 // ----------------------------------------------------------------
 
-// 19 coding challenge 2
-let marksWeight = 78;
-let marksHeight = 1.69;
-let johnWeight = 92;
-let johnHeight = 1.92;
+// // 19 coding challenge 2
+// let marksWeight = 78;
+// let marksHeight = 1.69;
+// let johnWeight = 92;
+// let johnHeight = 1.92;
 
-let marksBMI = marksWeight / marksHeight ** 2;
-let johnBMI = johnWeight / johnHeight ** 2;
-if (marksBMI > johnBMI) {
-  console.log(`Marks BMI is higher than john. BMI is ${marksBMI}`);
-} else {
-  console.log(`John BMI is higher than Marks. BMI is ${johnBMI}`);
-}
+// let marksBMI = marksWeight / marksHeight ** 2;
+// let johnBMI = johnWeight / johnHeight ** 2;
+// if (marksBMI > johnBMI) {
+//   console.log(`Marks BMI is higher than john. BMI is ${marksBMI}`);
+// } else {
+//   console.log(`John BMI is higher than Marks. BMI is ${johnBMI}`);
+// }
+// ----------------------------------------------------------------
+
+// 20 type conversion and coercion
+// Type Conversion
+let x = 10 + Number("5") + 20;
+let y = 20 + String(10);
+console.log(x, y);
+// Type Coercion
+let n = "10" - 1;
+n += 1;
+console.log(n);
