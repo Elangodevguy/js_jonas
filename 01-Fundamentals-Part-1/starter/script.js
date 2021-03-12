@@ -135,12 +135,20 @@
 // }
 // ----------------------------------------------------------------
 
-// 20 type conversion and coercion
-// Type Conversion
-let x = 10 + Number("5") + 20;
-let y = 20 + String(10);
-console.log(x, y);
-// Type Coercion
-let n = "10" - 1;
-n += 1;
-console.log(n);
+// // 20 type conversion and coercion
+// // Type Conversion
+// let x = 10 + Number("5") + 20;
+// let y = 20 + String(10);
+// console.log(x, y);
+// // Type Coercion
+// let n = "10" - 1;
+// n += 1;
+// console.log(n);
+// ----------------------------------------------------------------
+
+// 21 Truthy and Falsy values
+console.log(Boolean(""));
+console.log(Boolean({}));
+console.log(Boolean("el"));
+console.log(Boolean(undefined));
+console.log(Boolean(0));
