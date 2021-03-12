@@ -108,13 +108,28 @@
 // a web developer`);
 // ----------------------------------------------------------------
 
-// 18 if else statements
-let age = 21;
-const eligibleAge = 18;
-if (age > eligibleAge) {
-  console.log(`Person is allowed to take license 😘`);
+// // 18 if else statements
+// let age = 21;
+// const eligibleAge = 18;
+// if (age > eligibleAge) {
+//   console.log(`Person is allowed to take license 😘`);
+// } else {
+//   console.log(
+//     `Person should wait for ${eligibleAge - age} years for registration 😔`
+//   );
+// }
+// ----------------------------------------------------------------
+
+// 19 coding challenge 2
+let marksWeight = 78;
+let marksHeight = 1.69;
+let johnWeight = 92;
+let johnHeight = 1.92;
+
+let marksBMI = marksWeight / marksHeight ** 2;
+let johnBMI = johnWeight / johnHeight ** 2;
+if (marksBMI > johnBMI) {
+  console.log(`Marks BMI is higher than john. BMI is ${marksBMI}`);
 } else {
-  console.log(
-    `Person should wait for ${eligibleAge - age} years for registration 😔`
-  );
+  console.log(`John BMI is higher than Marks. BMI is ${johnBMI}`);
 }
