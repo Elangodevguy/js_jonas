@@ -84,25 +84,37 @@
 // console.log(marksBMI, johnBMI, markHigherBMI);
 // ----------------------------------------------------------------
 
-// 17 Strings and String Literals
-let name = "Elango";
-let job = "web developer";
-const birthYear = 1994;
-const currentYear = 2021;
+// // 17 Strings and String Literals
+// let name = "Elango";
+// let job = "web developer";
+// const birthYear = 1994;
+// const currentYear = 2021;
 
-console.log(
-  "I am " +
-    name +
-    ", a " +
-    (currentYear - birthYear) +
-    " years old " +
-    job +
-    "!"
-);
+// console.log(
+//   "I am " +
+//     name +
+//     ", a " +
+//     (currentYear - birthYear) +
+//     " years old " +
+//     job +
+//     "!"
+// );
 
-console.log(`I am ${name}, a ${currentYear - birthYear} years old ${job} !`);
+// console.log(`I am ${name}, a ${currentYear - birthYear} years old ${job} !`);
 
-console.log("I am \nElango \na web developer");
-console.log(`I am
-Elango
-a web developer`);
+// console.log("I am \nElango \na web developer");
+// console.log(`I am
+// Elango
+// a web developer`);
+// ----------------------------------------------------------------
+
+// 18 if else statements
+let age = 21;
+const eligibleAge = 18;
+if (age > eligibleAge) {
+  console.log(`Person is allowed to take license 😘`);
+} else {
+  console.log(
+    `Person should wait for ${eligibleAge - age} years for registration 😔`
+  );
+}
