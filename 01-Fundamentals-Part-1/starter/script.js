@@ -62,23 +62,47 @@
 // console.log(x, y);
 // ----------------------------------------------------------------
 
-// 16 coding challenge
-let marksWeight = 78;
-let marksHeight = 1.69;
-let johnWeight = 92;
-let johnHeight = 1.92;
+// // 16 coding challenge
+// let marksWeight = 78;
+// let marksHeight = 1.69;
+// let johnWeight = 92;
+// let johnHeight = 1.92;
 
-let marksBMI = marksWeight / marksHeight ** 2;
-let johnBMI = johnWeight / johnHeight ** 2;
-let markHigherBMI = marksBMI > johnBMI;
-console.log(marksBMI, johnBMI, markHigherBMI);
+// let marksBMI = marksWeight / marksHeight ** 2;
+// let johnBMI = johnWeight / johnHeight ** 2;
+// let markHigherBMI = marksBMI > johnBMI;
+// console.log(marksBMI, johnBMI, markHigherBMI);
 
-marksWeight = 95;
-marksHeight = 1.89;
-johnWeight = 85;
-johnHeight = 1.76;
+// marksWeight = 95;
+// marksHeight = 1.89;
+// johnWeight = 85;
+// johnHeight = 1.76;
 
-marksBMI = marksWeight / marksHeight ** 2;
-johnBMI = johnWeight / johnHeight ** 2;
-markHigherBMI = marksBMI > johnBMI;
-console.log(marksBMI, johnBMI, markHigherBMI);
+// marksBMI = marksWeight / marksHeight ** 2;
+// johnBMI = johnWeight / johnHeight ** 2;
+// markHigherBMI = marksBMI > johnBMI;
+// console.log(marksBMI, johnBMI, markHigherBMI);
+// ----------------------------------------------------------------
+
+// 17 Strings and String Literals
+let name = "Elango";
+let job = "web developer";
+const birthYear = 1994;
+const currentYear = 2021;
+
+console.log(
+  "I am " +
+    name +
+    ", a " +
+    (currentYear - birthYear) +
+    " years old " +
+    job +
+    "!"
+);
+
+console.log(`I am ${name}, a ${currentYear - birthYear} years old ${job} !`);
+
+console.log("I am \nElango \na web developer");
+console.log(`I am
+Elango
+a web developer`);
