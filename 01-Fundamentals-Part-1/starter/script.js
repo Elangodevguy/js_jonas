@@ -146,9 +146,18 @@
 // console.log(n);
 // ----------------------------------------------------------------
 
-// 21 Truthy and Falsy values
-console.log(Boolean(""));
-console.log(Boolean({}));
-console.log(Boolean("el"));
-console.log(Boolean(undefined));
-console.log(Boolean(0));
+// // 21 Truthy and Falsy values
+// console.log(Boolean(""));
+// console.log(Boolean({}));
+// console.log(Boolean("el"));
+// console.log(Boolean(undefined));
+// console.log(Boolean(0));
+// ----------------------------------------------------------------
+
+//  22 Equality operators == and ===
+const favourite = Number(prompt("Whats your favourite number"));
+if (favourite === 23) {
+  console.log(`23 is a cool number`);
+} else {
+  console.log(`why not 23 !!!!🤪`);
+}
