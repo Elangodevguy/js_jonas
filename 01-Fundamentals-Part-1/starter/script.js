@@ -154,10 +154,22 @@
 // console.log(Boolean(0));
 // ----------------------------------------------------------------
 
-//  22 Equality operators == and ===
-const favourite = Number(prompt("Whats your favourite number"));
-if (favourite === 23) {
-  console.log(`23 is a cool number`);
+// //  22 Equality operators == and ===
+// const favourite = Number(prompt("Whats your favourite number"));
+// if (favourite === 23) {
+//   console.log(`23 is a cool number`);
+// } else {
+//   console.log(`why not 23 !!!!🤪`);
+// }
+// ----------------------------------------------------------------
+
+// 24 Logical operators ==
+const hasDriversLicense = true;
+const hasGoodVision = true;
+const isTired = false;
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
 } else {
-  console.log(`why not 23 !!!!🤪`);
+  console.log("Someone else should drive!");
 }
