@@ -194,16 +194,22 @@
 // }
 // ----------------------------------------------------------------
 
-// 26 the switch statement
-const day = "friday";
+// // 26 the switch statement
+// const day = "friday";
 
-switch (day) {
-  case "monday":
-    console.log("worst day of the week");
-    break;
-  case "tuesday":
-    console.log("should start studying");
-    break;
-  default:
-    console.log("Not a day");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("worst day of the week");
+//     break;
+//   case "tuesday":
+//     console.log("should start studying");
+//     break;
+//   default:
+//     console.log("Not a day");
+// }
+// ----------------------------------------------------------------
+
+// 28 ternary operator
+const age = 17;
+const drink = age >= 18 ? "wine" : "water";
+console.log(drink);
