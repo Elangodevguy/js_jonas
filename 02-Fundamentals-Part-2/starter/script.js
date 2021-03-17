@@ -1,10 +1,10 @@
 "use strict";
 // 32 activating strict mode
-// let hasDriversLicense = false;
-// const passTest = true;
+let hasDriversLicense = false;
+const passTest = true;
 
-// if (passTest) hasDriverLicense = true;
-// if (hasDriversLicense) console.log("allowed to drive");
+if (passTest) hasDriverLicense = true;
+if (hasDriversLicense) console.log("allowed to drive");
 
-// // const interface = 'audio'
-// // const private = true;
+// const interface = 'audio'
+// const private = true;
