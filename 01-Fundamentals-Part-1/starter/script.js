@@ -175,20 +175,35 @@
 // }
 // ----------------------------------------------------------------
 
-// 25 Coding challenge 3
-let dolphinAverage = (97 + 112 + 101) / 3;
-let kolaAverage = (109 + 95 + 123) / 3;
+// // 25 Coding challenge 3
+// let dolphinAverage = (97 + 112 + 101) / 3;
+// let kolaAverage = (109 + 95 + 123) / 3;
 
-if (dolphinAverage > kolaAverage && dolphinAverage >= 100) {
-  console.log(`Dolphin is the winner`, dolphinAverage, kolaAverage);
-} else if (
-  dolphinAverage === kolaAverage &&
-  scoreDolphins >= 100 &&
-  scoreKoalas >= 100
-) {
-  console.log(`There is no winner, match is draw`, dolphinAverage, kolaAverage);
-} else if (kolaAverage > dolphinAverage && kolaAverage >= 100) {
-  console.log(`Kola is the winner`, dolphinAverage, kolaAverage);
-} else {
-  console.log(`No one wins the trophy😢`);
+// if (dolphinAverage > kolaAverage && dolphinAverage >= 100) {
+//   console.log(`Dolphin is the winner`, dolphinAverage, kolaAverage);
+// } else if (
+//   dolphinAverage === kolaAverage &&
+//   scoreDolphins >= 100 &&
+//   scoreKoalas >= 100
+// ) {
+//   console.log(`There is no winner, match is draw`, dolphinAverage, kolaAverage);
+// } else if (kolaAverage > dolphinAverage && kolaAverage >= 100) {
+//   console.log(`Kola is the winner`, dolphinAverage, kolaAverage);
+// } else {
+//   console.log(`No one wins the trophy😢`);
+// }
+// ----------------------------------------------------------------
+
+// 26 the switch statement
+const day = "friday";
+
+switch (day) {
+  case "monday":
+    console.log("worst day of the week");
+    break;
+  case "tuesday":
+    console.log("should start studying");
+    break;
+  default:
+    console.log("Not a day");
 }
